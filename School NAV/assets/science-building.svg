@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="#e6f7ff" />
+  
+  <!-- Ground -->
+  <rect y="250" width="400" height="50" fill="#7d8f69" />
+  
+  <!-- Science Building -->
+  <rect x="100" y="80" width="200" height="170" fill="#d1e8e2" stroke="#7b1113" stroke-width="3" />
+  
+  <!-- Roof -->
+  <rect x="90" y="70" width="220" height="15" fill="#7b1113" />
+  
+  <!-- Door -->
+  <rect x="180" y="200" width="40" height="50" fill="#7b1113" />
+  
+  <!-- Windows -->
+  <rect x="130" y="110" width="30" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="240" y="110" width="30" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="130" y="155" width="30" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="240" y="155" width="30" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  
+  <!-- Science Symbol -->
+  <circle cx="200" cy="130" r="25" fill="white" stroke="#7b1113" stroke-width="2" />
+  <circle cx="185" cy="120" r="5" fill="#7b1113" />
+  <circle cx="215" cy="120" r="5" fill="#7b1113" />
+  <circle cx="200" cy="140" r="5" fill="#7b1113" />
+  <line x1="185" y1="120" x2="215" y2="120" stroke="#7b1113" stroke-width="2" />
+  <line x1="185" y1="120" x2="200" y2="140" stroke="#7b1113" stroke-width="2" />
+  <line x1="215" y1="120" x2="200" y2="140" stroke="#7b1113" stroke-width="2" />
+  
+  <!-- Label -->
+  <rect x="125" y="40" width="150" height="30" rx="5" fill="#7b1113" />
+  <text x="200" y="60" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Science Building</text>
+</svg>

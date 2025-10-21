@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="#e6f7ff" />
+  
+  <!-- Ground -->
+  <rect y="250" width="400" height="50" fill="#7d8f69" />
+  
+  <!-- Gymnasium Building -->
+  <rect x="80" y="120" width="240" height="130" fill="#f5e1a4" stroke="#7b1113" stroke-width="3" />
+  
+  <!-- Domed Roof -->
+  <path d="M80,120 Q200,50 320,120" fill="#7b1113" />
+  
+  <!-- Door -->
+  <rect x="180" y="200" width="40" height="50" fill="#7b1113" />
+  
+  <!-- Windows -->
+  <rect x="120" y="150" width="40" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="240" y="150" width="40" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  
+  <!-- Basketball Hoop Symbol -->
+  <circle cx="200" cy="140" r="15" fill="orange" stroke="#7b1113" stroke-width="1" />
+  <rect x="185" y="140" width="30" height="2" fill="#7b1113" />
+  <path d="M185,140 L185,150 L215,150 L215,140" fill="none" stroke="#7b1113" stroke-width="1" />
+  
+  <!-- Label -->
+  <rect x="125" y="70" width="150" height="30" rx="5" fill="#7b1113" />
+  <text x="200" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Gymnasium</text>
+</svg>

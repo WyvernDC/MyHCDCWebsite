@@ -1,0 +1,2 @@
+PNG versions of all SVG assets should be placed here for maximum browser compatibility.
+For the downloadable version, you can use free online SVG to PNG converters to convert the SVG files in the assets folder.

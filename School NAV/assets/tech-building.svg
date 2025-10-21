@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="#e6f7ff" />
+  
+  <!-- Ground -->
+  <rect y="250" width="400" height="50" fill="#7d8f69" />
+  
+  <!-- Tech Building -->
+  <rect x="100" y="100" width="200" height="150" fill="#d8d8e3" stroke="#7b1113" stroke-width="3" />
+  
+  <!-- Modern Roof -->
+  <polygon points="90,100 310,100 280,70 120,70" fill="#7b1113" />
+  
+  <!-- Door -->
+  <rect x="180" y="200" width="40" height="50" fill="#7b1113" />
+  
+  <!-- Windows - more modern looking -->
+  <rect x="120" y="120" width="60" height="40" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="220" y="120" width="60" height="40" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="120" y="170" width="40" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  <rect x="240" y="170" width="40" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="2" />
+  
+  <!-- Technology symbols -->
+  <circle cx="200" cy="140" r="15" fill="white" stroke="#7b1113" stroke-width="2" />
+  <line x1="200" y1="125" x2="200" y2="155" stroke="#7b1113" stroke-width="2" />
+  <line x1="185" y1="140" x2="215" y2="140" stroke="#7b1113" stroke-width="2" />
+  <circle cx="200" cy="140" r="3" fill="#7b1113" />
+  
+  <!-- Label -->
+  <rect x="125" y="40" width="150" height="30" rx="5" fill="#7b1113" />
+  <text x="200" y="60" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Technology Center</text>
+</svg>

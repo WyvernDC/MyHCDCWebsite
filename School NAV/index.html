@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Cross of Davao College Room Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Header Component -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <img src="assets/hcdclogo.png" alt="HCDC Logo">
+        <h1>HCDC School Navigation System</h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" class="active" id="nav-home">Home</a></li>
+          <li><a href="#" id="nav-roomfinder">Room Finder</a></li>
+        </ul>
+      </nav>
+      <button class="login-btn" id="loginBtn">Login</button>
+    </div>
+  </header>
+
+  <!-- Login Modal -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      <p class="error-message" id="loginError"></p>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    <!-- Home Page -->
+    <section id="home-page" class="page active">
+      <div class="hero">
+        <h2>Welcome to Holy Cross of Davao College</h2>
+        <p>Find rooms, venues, and facilities across our campus using our interactive room finder.</p>
+      </div>
+
+      <div class="buildings-container">
+        <h3>Our Campus Buildings</h3>
+        <div class="buildings-grid" id="buildings-grid">
+          <!-- Buildings will be loaded here dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Room Finder Page -->
+    <section id="roomfinder-page" class="page">
+      <h2>Room Finder</h2>
+      
+      <div class="filters">
+        <div class="filter-group">
+          <label for="building-filter">Building</label>
+          <select id="building-filter">
+            <option value="all">All Buildings</option>
+            <!-- Buildings will be loaded here dynamically -->
+          </select>
+        </div>
+        
+        <div class="filter-group">
+          <label for="floor-filter">Floor</label>
+          <select id="floor-filter">
+            <option value="all">All Floors</option>
+            <!-- Floors will be loaded here dynamically -->
+          </select>
+        </div>
+        
+        <div class="filter-group">
+          <label for="room-type-filter">Room Type</label>
+          <select id="room-type-filter">
+            <option value="all">All Types</option>
+            <option value="classroom">Classroom</option>
+            <option value="laboratory">Laboratory</option>
+            <option value="office">Office</option>
+            <option value="auditorium">Auditorium</option>
+          </select>
+        </div>
+        
+        <div class="filter-group status-filter-group" id="status-filter-container" style="display: none;">
+          <label for="status-filter">Status</label>
+          <select id="status-filter">
+            <option value="all">All Status</option>
+            <option value="available">Available</option>
+            <option value="occupied">Occupied</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="rooms-container">
+        <div class="legend" id="status-legend" style="display: none;">
+          <div class="legend-item">
+            <span class="status-indicator status-available"></span>
+            <span>Available</span>
+          </div>
+          <div class="legend-item">
+            <span class="status-indicator status-occupied"></span>
+            <span>Occupied</span>
+          </div>
+        </div>
+        
+        <div class="rooms-list" id="rooms-list">
+          <!-- Rooms will be loaded here dynamically -->
+          <p class="no-rooms">Please select filters to see available rooms</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thank You Page -->
+    <section id="thankyou-page" class="page">
+      <div class="thankyou-content">
+        <img src="assets/hcdclogo.png" alt="HCDC Logo" class="thankyou-logo">
+        <h2>Thank You for Using HCDC Room Finder</h2>
+        <p>This prototype was developed for Holy Cross of Davao College to help students, faculty, and visitors easily locate rooms within the campus.</p>
+        <p>For suggestions or feedback, please contact these people "Dela Cruz, Lim, Millana, Melendres, Seron".</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Component -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Holy Cross of Davao College. All rights reserved.</p>
+      <a href="#" id="thankyou-link">About this Project</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

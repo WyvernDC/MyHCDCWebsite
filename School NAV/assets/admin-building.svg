@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="#e6f7ff" />
+  
+  <!-- Ground -->
+  <rect y="250" width="400" height="50" fill="#7d8f69" />
+  
+  <!-- Admin Building -->
+  <rect x="100" y="100" width="200" height="150" fill="#e8e8e8" stroke="#7b1113" stroke-width="3" />
+  
+  <!-- Roof with columns -->
+  <rect x="90" y="85" width="220" height="15" fill="#7b1113" />
+  <rect x="110" y="100" width="10" height="150" fill="#d1d1d1" stroke="#7b1113" stroke-width="1" />
+  <rect x="280" y="100" width="10" height="150" fill="#d1d1d1" stroke="#7b1113" stroke-width="1" />
+  <rect x="160" y="100" width="10" height="150" fill="#d1d1d1" stroke="#7b1113" stroke-width="1" />
+  <rect x="230" y="100" width="10" height="150" fill="#d1d1d1" stroke="#7b1113" stroke-width="1" />
+  
+  <!-- Door -->
+  <rect x="180" y="200" width="40" height="50" fill="#7b1113" />
+  
+  <!-- Windows -->
+  <rect x="130" y="120" width="20" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="1" />
+  <rect x="175" y="120" width="50" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="1" />
+  <rect x="250" y="120" width="20" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="1" />
+  <rect x="130" y="160" width="20" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="1" />
+  <rect x="250" y="160" width="20" height="30" fill="#c6e6f7" stroke="#7b1113" stroke-width="1" />
+  
+  <!-- Label -->
+  <rect x="110" y="50" width="180" height="30" rx="5" fill="#7b1113" />
+  <text x="200" y="70" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Administration Building</text>
+</svg>
